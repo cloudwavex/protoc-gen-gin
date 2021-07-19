@@ -5,8 +5,8 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/mohuishou/protoc-gen-go-gin/example/api/product/app/ecode"
-	v1 "github.com/mohuishou/protoc-gen-go-gin/example/api/product/app/v1"
+	"github.com/luyunbo/protoc-gen-gin/example/api/product/app/ecode"
+	v1 "github.com/luyunbo/protoc-gen-gin/example/api/product/app/v1"
 )
 
 type service struct {
