@@ -1,4 +1,4 @@
-# protoc-gen-go-gin
+# protoc-gen-gin
 
 > 修改自 [kratos v2](https://github.com/go-kratos/kratos/tree/main/cmd/protoc-gen-go-http)
 
