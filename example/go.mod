@@ -1,11 +1,11 @@
-module github.com/mohuishou/protoc-gen-go-gin/example
+module github.com/luyunbo/protoc-gen-gin/example
 
 go 1.16
 
 require (
-	github.com/gin-gonic/gin v1.6.3
-	github.com/golang/protobuf v1.4.3
-	github.com/pkg/errors v0.9.1
-	google.golang.org/genproto v0.0.0-20210224155714-063164c882e6
-	google.golang.org/grpc v1.36.0
+	github.com/gin-gonic/gin v1.7.2
+	github.com/golang/protobuf v1.5.2
+	github.com/mohuishou/protoc-gen-go-gin/example v0.0.0-20210508074706-1e7cbc8cc172
+	google.golang.org/genproto v0.0.0-20210716133855-ce7ef5c701ea
+	google.golang.org/grpc v1.39.0
 )
