@@ -4,6 +4,11 @@
     "title": "product/app/v1/v1.proto",
     "version": "version not set"
   },
+  "tags": [
+    {
+      "name": "BlogService"
+    }
+  ],
   "consumes": [
     "application/json"
   ],
@@ -54,7 +59,7 @@
           },
           {
             "name": "author_id",
-            "description": "@inject_tag: form:\"author_id\" uri:\"author_id\".",
+            "description": "作者名\n@inject_tag: form:\"author_id\" uri:\"author_id\".",
             "in": "query",
             "required": false,
             "type": "integer",
@@ -86,7 +91,7 @@
         "parameters": [
           {
             "name": "author_id",
-            "description": "@inject_tag: form:\"author_id\" uri:\"author_id\"",
+            "description": "作者名\n@inject_tag: form:\"author_id\" uri:\"author_id\"",
             "in": "path",
             "required": true,
             "type": "integer",

@@ -34,6 +34,7 @@ message GetArticlesReq {
 	// @inject_tag: form:"page_size"
 	int32 page_size = 3;
 
+    // 作者名
 	// @inject_tag: form:"author_id" uri:"author_id"
 	int32 author_id = 4;
 }
